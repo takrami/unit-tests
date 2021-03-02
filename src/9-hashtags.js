@@ -1,6 +1,4 @@
-export const hashtags = (
-  text = "Hello #world this is a #string with #hashtags"
-) => {
+export const hashtags = (text) => {
   const res = text.split(" ");
   const hashtags = [];
   res.map((item) => {
